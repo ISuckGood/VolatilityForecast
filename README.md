@@ -14,3 +14,4 @@ Data Preparation: Stock price data is loaded (likely from a CSV file or similar)
 Model Training: The LSTM network is trained using an optimizer (like Adam) that adjusts the model's parameters to minimize the MSE loss. This process involves feeding the model historical data and iteratively improving its predictions.
 Forecasting: Once trained, the model can forecast volatility for a future period (e.g., the next 30 days) based on the patterns it has learned from the historical data.
 Visualization: The predicted volatility is plotted against the actual (historical) volatility to assess the model's performance and visualize the forecast.
+
